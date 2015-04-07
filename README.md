@@ -35,7 +35,7 @@ graficzne prezentowanie dostępności członków zakładu (patrz zakładka konta
     
     git push -u origin RD-1-example-task
     ```
-    
+* keep your brach up-to-date with develop branch
 * when finishing your task create a pull request
     
     
