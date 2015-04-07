@@ -5,6 +5,7 @@
 Aplikacja Django dla grup badawczych / instytutów naukowych [3 osoby].
 Serwis ma umożliwiać tworzenie stron www dla grup naukowych (patrz np. http://gmum.net),
 gdzie podstawową funkcjonalnością jest:
+
 1. tworzenie newsów
 2. uzupełnianie listy seminariów
 3. dodawanie statycznych stron z tekstem
@@ -21,15 +22,19 @@ graficzne prezentowanie dostępności członków zakładu (patrz zakładka konta
 * create a fork of the main repo and check it out
 * set upstream
     
+    ```sh
     git remote add upstream git@github.com:DoWithoutGirls/researchdoor.git
+    ```
     
 * when working on a new feature create a new local branch
 
+    ```sh
     git checkout develop
     
     git checkout -b RD-1-example-task
     
     git push -u origin RD-1-example-task
+    ```
     
 * when finishing your task create a pull request
     
